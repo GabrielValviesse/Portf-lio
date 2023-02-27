@@ -1,0 +1,240 @@
+# Auto detect text files and perform LF normalization
+* text=auto
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfólio Gabriel Valviesse</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+</head>
+<body>
+    <header>
+        <img src="https://jml.neocities.org/html5-css3-js.png" alt="" id="logos">
+        <h2>Gabriel Valviesse</h2>
+
+        <div id="divHeader">
+            <nav><a href="index.html">Home</a></nav>
+            <nav><a href="projetos.html">Projetos</a></p>
+        
+        </div>
+    </header>
+<main>
+<div id="main">
+<h1>Olá, meu nome é <br> <strong> Gabriel Valviesse</strong><br> Sou desenvolvedor <br>Front-end</h1>
+<img src="imagens/logo portfólio3.png" alt="" id="logo">
+
+</div>
+<div id="imagem"><img src="" alt=""></div>
+</main>
+<article>
+
+
+</article>
+<footer>Desenvolvido por Gabriel Valviesse</footer>
+</body>
+</html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfólio</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+</head>
+<body>
+    <header>
+        <img src="https://jml.neocities.org/html5-css3-js.png" alt="" id="logos">
+        <h2>Gabriel Valviesse</h2>
+
+        <div id="divHeader">
+            <nav><a href="index.html">Home</a></nav>
+            <nav><a href="projetos.html">Projetos</a></p>
+        
+        </div>
+    </header>
+<main>
+
+
+<div id="principal">
+<div class="projetos" id="calculadora"><h3><a href="https://gabrielvalviesse.github.io/Calculadora/">Calculadora</a></h3></div>
+<div class="projetos"><h3>Lista de Tarefas</h3></div>
+<div class="projetos"><h3>Jogo da Velha</h3></div>
+<div class="projetos"><h3>Em breve</h3></div>
+<div class="projetos"><h3>Em breve</h3></div>
+<div class="projetos"><h3>Em breve</h3></div>
+
+</div>
+</main>
+<footer>Desenvolvido por Gabriel Valviesse</footer>
+</body>
+</html>
+
+function tema(){
+    document.getElementById("btnTema");
+    addEventListener('click'.btnTema)
+    style.body.backgroundColor = "white"
+
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    /*box-sizing: border-box;*/
+}
+header {
+    background-color: rgb(22, 22, 22);
+    justify-content: space-around;
+    color: white;
+    height: 80px;
+    width: 100%;
+    margin: 0em;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+body {
+    background-color: rgb(45, 45, 45);
+
+}
+
+div#divHeader {
+    display: flex;
+    justify-items: center;
+    margin: 0em;
+    font-size: 20px;
+    padding: 0px;
+    background-color: black;
+    height: 80px;
+    max-width: 300px;
+}
+
+nav {
+    margin: 5px;
+    padding: 20px;
+    text-align: center;
+    margin-top: 10px;
+    border-radius: 5px;
+    font-family: monospace;
+    width: 80px;
+}
+
+a {
+    text-decoration: none;
+color: white;
+}
+
+nav:hover {
+background-color: rgb(58, 58, 58);
+transition: 0.3s;
+}
+
+h2 {
+margin: 1em;
+font-family: monospace;
+}
+
+main {
+    background-color: rgba(0, 0, 0, 0.308);
+    max-height: 700px;
+    max-width: 700px;
+    width: 90%;
+    display: flex;
+    justify-content: baseline;
+    flex-wrap: wrap;
+    border-radius: 4%;
+    margin: auto;
+    margin-top: 6em;
+    flex-wrap: wrap;
+
+    }
+
+div#main {
+    display: flex;
+    flex-wrap: wrap;
+    justify-self: center;
+}
+
+    img#logo {
+        margin-top: 1.5em;
+        height: auto;
+        max-height: 330px;
+        width: 90%;
+        max-width: 330px;
+        margin-left: 1em;
+    }
+
+h1 {
+    color:  rgb(206, 205, 205);
+    margin: 1em;
+    margin-top: 4em;
+    font-family: monospace;
+    font-size: 30px;
+}
+
+h2 {
+    font-family: monospace;
+    font-size: 25px;
+}
+
+strong {
+    color: rgb(138, 206, 216);
+    box-shadow: 2em;
+}
+div#imagem{
+    height: 400px;
+    width: 400px;
+    justify-content: center;
+    display: block;
+    margin: auto;
+}
+
+img#logos{
+    margin-top: 1.2em;
+width: 40px;
+height: 40px;
+}
+
+div#principal {
+    display: flex;
+    flex-wrap: wrap;
+}
+div.projetos {
+    width: 166px;
+    height: 166px;
+    margin: 1em;
+    box-shadow: 13px 13px 15px rgba(0, 0, 0, 0.253);
+    border-radius: 10%;
+    background-color: rgba(192, 192, 192, 0.979);
+    color: rgba(150, 150, 150, 0);
+}
+div.projetos:hover {
+    box-shadow: 0px 0px 15px rgb(116, 192, 243);
+    transition: 0.2s;
+    padding: 0.07em;
+    color: rgb(255, 255, 255);
+}
+#calculadora {
+    background-image: url(imagens/calculadora.jpg);
+    background-size: 100%;
+}
+
+h3 {
+    text-align: center;
+    font-family: monospace;
+    font-size: 25px;
+    margin-top: 2em;
+}
+
+footer {
+    background-color: black;
+    color: white;
+    text-align: center;
+    margin-top: 19.5lh;
+}
+
