@@ -59,7 +59,7 @@ main {
     background-color: rgba(0, 0, 0, 0.308);
     max-height: 700px;
     max-width: 700px;
-    width: 92%;
+    width: 93%;
     display: flex;
     justify-content: baseline;
     flex-wrap: wrap;
@@ -120,9 +120,9 @@ div#principal {
     flex-wrap: wrap;
 }
 div.projetos {
-    width: 155px;
-    height: 155px;
-    margin: 0.8em;
+    width: 152px;
+    height: 152px;
+    margin: 0.7em;
     box-shadow: 13px 13px 15px rgba(0, 0, 0, 0.253);
     border-radius: 10%;
     background-color: rgba(192, 192, 192, 0.979);
